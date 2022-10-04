@@ -93,11 +93,12 @@
             this.twosBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.twosBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.twosBox.BackColor = System.Drawing.Color.Ivory;
+            this.twosBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.twosBox.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.twosBox.Location = new System.Drawing.Point(273, 243);
             this.twosBox.Name = "twosBox";
-            this.twosBox.Size = new System.Drawing.Size(293, 30);
+            this.twosBox.Size = new System.Drawing.Size(293, 37);
             this.twosBox.TabIndex = 7;
             // 
             // two
@@ -118,11 +119,12 @@
             this.threesBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.threesBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.threesBox.BackColor = System.Drawing.Color.Ivory;
+            this.threesBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.threesBox.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.threesBox.Location = new System.Drawing.Point(273, 180);
             this.threesBox.Name = "threesBox";
-            this.threesBox.Size = new System.Drawing.Size(293, 30);
+            this.threesBox.Size = new System.Drawing.Size(293, 37);
             this.threesBox.TabIndex = 5;
             // 
             // foursBox
@@ -130,11 +132,12 @@
             this.foursBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.foursBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.foursBox.BackColor = System.Drawing.Color.Ivory;
+            this.foursBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.foursBox.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.foursBox.Location = new System.Drawing.Point(273, 117);
             this.foursBox.Name = "foursBox";
-            this.foursBox.Size = new System.Drawing.Size(293, 30);
+            this.foursBox.Size = new System.Drawing.Size(293, 37);
             this.foursBox.TabIndex = 4;
             // 
             // three
@@ -181,11 +184,12 @@
             this.fivesBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.fivesBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.fivesBox.BackColor = System.Drawing.Color.Ivory;
+            this.fivesBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.fivesBox.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.fivesBox.Location = new System.Drawing.Point(273, 54);
             this.fivesBox.Name = "fivesBox";
-            this.fivesBox.Size = new System.Drawing.Size(293, 30);
+            this.fivesBox.Size = new System.Drawing.Size(293, 37);
             this.fivesBox.TabIndex = 0;
             // 
             // calcButton
@@ -231,7 +235,6 @@
         #endregion
 
         private Panel panel1;
-        private FontAwesome.Sharp.IconButton calcButton;
         private TextBox fivesBox;
         private TextBox threesBox;
         private TextBox foursBox;
@@ -242,5 +245,6 @@
         private Label two;
         private ComboBox comboBox1;
         private Label label1;
+        private FontAwesome.Sharp.IconButton calcButton;
     }
 }
